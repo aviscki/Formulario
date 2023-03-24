@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Styless.css">
+</head>
+<body>
+    <div>
+        <h1 class="title">Cadastro Pessoal</h1>
+    <img class="img" src="https://cdn-icons-png.flaticon.com/512/5146/5146939.png" alt="Imagem form" width="100px" height="100px">
+    <form>
+        <fieldset class="grupo">
+            <div>
+            <legend><strong>Dados Pessoais</strong></legend>
+                    
+                    <table>
+                    <tr>
+                        <td><label for="Nome"><strong>Nome:</strong></label></td>
+                        <td><input type="text" name="Nome:" id="nome" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email"><strong>Email:</strong></label></td>
+                    <td><input type="email" name="email" id="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="date"><strong>Telefone:</strong></label></td>
+                        <td><input type="date" name="date" id="date" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="RG"><strong>RG:</strong></label></td>
+                        <td><input type="number" name="RG" id="RG" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="CPF"><strong>CPF:</strong></label></td>
+                        <td><input type="number" name="CPF" id="CPF" required></td>
+                    </tr>
+                    </table>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="grupo">
+            <div>
+                <legend><strong>Endereço</strong></legend>
+                    <table>
+                    <tr>
+                        <td><label for="rua"><strong>Rua:</strong></label></td>
+                        <td><input type="text" name="rua" id="rua" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="numero"><strong>Numero:</strong></label></td>
+                        <td><input type="number" name="numero" id="numero" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="bairro"><strong>Bairro:</strong></label></td>
+                        <td><input type="text" name="bairro" id="bairro" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="cidade"><strong>Cidade:</strong></label></td>
+                        <td><input type="text" name="cidade" id="cidade" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="CEP"><strong>CEP:</strong></label></td>
+                        <td><input type="text" name="CEP" id="CEP" required></td>
+                    </tr>
+                </table>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="grupo">
+            <div>
+                <legend><strong>Login</strong></legend>
+                    <table class="grupo">
+                    <tr>
+                        <td><label for="imgperfil"><strong>Imagem de Perfil: </strong></label></td>
+                        <td><input type="file" src="imgperfil" alt="imgperfil"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="login"><strong>Login de usuário:</strong></label></td>
+                        <td><input type="text" name="login" id="login" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="senha"><strong>Digite sua senha:</strong></label></td>
+                        <td><input type="password" name="senha" id="senha" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="confirm"><strong>Confirmar a senha:</strong></label></td>
+                        <td><input type="password" name="confirm" id="confirm" required></td>
+                    </tr>
+                    </table>
+            </div>
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </div>
+    </form>
+
+</body>
+</html>
